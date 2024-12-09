@@ -1,10 +1,10 @@
+
 #ifndef ARTICLE
 #define ARTICLE 
 #include <string>
 #include <iostream>
 #include "author.cpp"
 using namespace std;
-
 class Article
 {
     private:
@@ -25,19 +25,15 @@ class Article
         cout << "Publication Year: " << publicationYear << endl;
         cout << "Journal: " << journal << endl;
     }
-
     string getTitle() {
         return title;
     }
-
     Author getAuthor() {
         return author;
     }
-
     int getPublicationYear() {
         return publicationYear;
     }
-
     string getJournal() {
         return journal;
     }
